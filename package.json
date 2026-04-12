@@ -1,0 +1,28 @@
+{
+  "name": "atmofrance-card",
+  "version": "0.0.1",
+  "description": "Custom Lovelace card for Atmo France air quality and pollen data",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sylvertom/atmofrance-card"
+  },
+  "main": "dist/atmofrance-card.js",
+  "scripts": {
+    "build": "node ./node_modules/rollup/dist/bin/rollup -c",
+    "deploy": "node ./node_modules/rollup/dist/bin/rollup -c && cp dist/atmofrance-card.js ../config/www/custom-cards/atmofrance-card/",
+    "watch": "node ./node_modules/rollup/dist/bin/rollup -c --watch"
+  },
+  "devDependencies": {
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "@rollup/plugin-terser": "^1.0.0",
+    "@rollup/plugin-typescript": "^12.3.0",
+    "rollup": "^4.9.0",
+    "tslib": "^2.6.0",
+    "typescript": "^6.0.2"
+  },
+  "dependencies": {
+    "lit": "^3.1.0"
+  }
+}

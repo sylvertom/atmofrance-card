@@ -1,0 +1,58 @@
+{
+  "card": {
+    "title": "Qualit\u00e9 de l'air",
+    "pollution": "Pollution",
+    "pollen": "Pollen",
+    "today": "Auj.",
+    "forecast": "Demain",
+    "unavailable": "Indisponible",
+    "no_data": "Aucune donn\u00e9e"
+  },
+  "pollutant": {
+    "dioxyde_d_azote": "NO\u2082",
+    "ozone": "O\u2083",
+    "pm10": "PM10",
+    "pm25": "PM2.5",
+    "dioxyde_de_soufre": "SO\u2082",
+    "qualite_globale": "Global"
+  },
+  "pollen_type": {
+    "niveau_ambroisie": "Ambroisie",
+    "niveau_armoise": "Armoise",
+    "niveau_aulne": "Aulne",
+    "niveau_bouleau": "Bouleau",
+    "niveau_gramine": "Gramin\u00e9es",
+    "niveau_olivier": "Olivier",
+    "qualite_globale_pollen": "Global"
+  },
+  "pollution_level": {
+    "0": "Indisponible",
+    "1": "Bon",
+    "2": "Moyen",
+    "3": "D\u00e9grad\u00e9",
+    "4": "Mauvais",
+    "5": "Tr\u00e8s Mauvais",
+    "6": "Extr\u00eamement mauvais",
+    "7": "\u00c9v\u00e8nement"
+  },
+  "pollen_level": {
+    "0": "Indisponible",
+    "1": "Tr\u00e8s faible",
+    "2": "Faible",
+    "3": "Mod\u00e9r\u00e9",
+    "4": "\u00c9lev\u00e9",
+    "5": "Tr\u00e8s \u00e9lev\u00e9",
+    "6": "Extr\u00eamement \u00e9lev\u00e9"
+  },
+  "editor": {
+    "title": "Titre",
+    "show_pollution": "Afficher la pollution",
+    "show_pollen": "Afficher le pollen",
+    "show_forecast": "Afficher les pr\u00e9visions (J+1)",
+    "hide_when_good": "Masquer quand tous les niveaux sont bons",
+    "zone_name": "Zone (emplacement)",
+    "all_zones": "Toutes les zones (auto-d\u00e9tection)",
+    "show_details": "Afficher les d\u00e9tails",
+    "show_concentration": "Afficher les concentrations de pollen"
+  }
+}

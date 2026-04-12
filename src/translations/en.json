@@ -1,0 +1,58 @@
+{
+  "card": {
+    "title": "Air Quality",
+    "pollution": "Pollution",
+    "pollen": "Pollen",
+    "today": "Today",
+    "forecast": "Tomorrow",
+    "unavailable": "Unavailable",
+    "no_data": "No data"
+  },
+  "pollutant": {
+    "dioxyde_d_azote": "NO\u2082",
+    "ozone": "O\u2083",
+    "pm10": "PM10",
+    "pm25": "PM2.5",
+    "dioxyde_de_soufre": "SO\u2082",
+    "qualite_globale": "Overall"
+  },
+  "pollen_type": {
+    "niveau_ambroisie": "Ragweed",
+    "niveau_armoise": "Mugwort",
+    "niveau_aulne": "Alder",
+    "niveau_bouleau": "Birch",
+    "niveau_gramine": "Grasses",
+    "niveau_olivier": "Olive",
+    "qualite_globale_pollen": "Overall"
+  },
+  "pollution_level": {
+    "0": "Unavailable",
+    "1": "Good",
+    "2": "Fair",
+    "3": "Degraded",
+    "4": "Poor",
+    "5": "Very Poor",
+    "6": "Extremely Poor",
+    "7": "Event"
+  },
+  "pollen_level": {
+    "0": "Unavailable",
+    "1": "Very Low",
+    "2": "Low",
+    "3": "Moderate",
+    "4": "High",
+    "5": "Very High",
+    "6": "Extremely High"
+  },
+  "editor": {
+    "title": "Title",
+    "show_pollution": "Show pollution",
+    "show_pollen": "Show pollen",
+    "show_forecast": "Show forecast (J+1)",
+    "hide_when_good": "Hide when all levels are good",
+    "zone_name": "Zone (location)",
+    "all_zones": "All zones (auto-detect)",
+    "show_details": "Show details",
+    "show_concentration": "Show pollen concentrations"
+  }
+}
